@@ -1,0 +1,9 @@
+# db/Dockerfile
+FROM mysql:latest
+
+ENV MYSQL_ROOT_PASSWORD=root246
+ENV MYSQL_DATABASE=saaddb
+ENV MYSQL_USER=saadbutt
+ENV MYSQL_PASSWORD=saad246
+
+EXPOSE 3306
